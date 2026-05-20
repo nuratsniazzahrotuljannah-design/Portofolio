@@ -942,7 +942,7 @@ img {
   background: linear-gradient(90deg, var(--brown-accent), var(--maroon-main));
   border-radius: 10px;
   width: 0;
-  animation: loadBar 1.5s ease-out forwards;
+  transition: width 1.5s cubic-bezier(0.1, 1, 0.1, 1);
 }
 
 @keyframes loadBar {
