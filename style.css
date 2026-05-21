@@ -61,7 +61,6 @@ img {
   top: 0;
   left: 0;
   right: 0;
-  background-color: var(--white);
   box-shadow: var(--shadow);
   z-index: 1000;
   padding: 15px 0;
@@ -247,6 +246,7 @@ img {
   align-items: center;
   position: relative;
   z-index: 1;
+  margin-top: 140px;
 }
 
 .greeting {
